@@ -1,5 +1,5 @@
 const corsOptions = {
-    origin: 'https://pmarshal-frontend.vercel.app/',
+    origin: 'https://pmarshal-frontend.vercel.app',
     optionsSuccessStatus: 200
 };
 
