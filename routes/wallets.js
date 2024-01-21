@@ -25,7 +25,7 @@ router.post('/addWallet', async (req, res) => {
                 action: 'balance',
                 address: walletAddress,
                 tag: 'latest',
-                apikey: '1YU28Y2D1KZ5ZPFMTDJQA2S1368W42Y5T5' 
+                apikey: process.env.ETHERSCAN_APIKEY  
             }
         });
 
